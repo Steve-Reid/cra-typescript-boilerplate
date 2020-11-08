@@ -28,6 +28,7 @@ module.exports = {
     sourceType: 'module',
     project: './tsconfig.json',
   },
+  ignorePatterns: ['.eslintrc.js'],
   rules: {
     'linebreak-style': 'off',
     'prettier/prettier': ['error', {}, { usePrettierrc: true }],
